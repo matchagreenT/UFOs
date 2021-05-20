@@ -67,22 +67,29 @@
       <div class="filter">
         <form>
           <p>Filter Search</p>
-          <ul>
-            <br><label for="date">Enter Date</label></br>
-            <input type="text" placeholder="1/10/2010" id="datetime" />
-            
-            <br><label for="city">Enter City</label></br>
-            <input type="text" placeholder="benton" id="city" />
-            
-            <br><label for="state">Enter State</label></br>
-            <input type="text" placeholder="ar" id="state" />
-            
-            <br><label for="country">Enter Country</label></br>
-            <input type="text" placeholder="us" id="country" />
-            
-            <br><label for="shape">Enter Shape</label></br>
-            <input type="text" placeholder="cirle" id="shape" />
-            
+          <ul class="list-group">
+            <li class="list-group-item bg-dark">
+              <label for="date">Enter Date</label>
+              <input type="text" placeholder="1/10/2010" id="datetime" />
+            </li>
+            <li class="list-group-item bg-dark">
+              <label for="city">Enter a City</label>
+              <input type="text" id="city" class="form-control" placeholder="roswell" />
+            </li>
+            <li class="list-group-item bg-dark">
+              <label for="state">Enter a State</label>
+              <input type="text" id="state" class="form-control" placeholder="ca" />
+            </li>
+            <li class="list-group-item bg-dark">
+              <label for="country">Enter a Country</label>
+              <input type="text" id="country" class="form-control" placeholder="us" />
+            </li>
+            <li class="list-group-item bg-dark">
+              <label for="shape">Enter a Shape</label>
+              <input type="text" id="shape" class="form-control" placeholder="circle" />
+            </li>
+          </ul>
+          <ul>          
             <br></br><button id="filter-btn" type="button" class="btn btn-default">
                Filter Table
               </button>
